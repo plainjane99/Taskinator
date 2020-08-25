@@ -38,13 +38,19 @@ li {
   font-size: 1.6rem;
 }
 
-form {
+/* form {
   display: flex;
   align-items: flex-end;
   flex-wrap: wrap;
+} */
+
+form {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
-form input {
+/* form input {
   outline: none;
   border: none;
   padding: 12px;
@@ -52,11 +58,27 @@ form input {
   font-size: 2.2rem;
   border: 2px solid var(--grey);
   border-radius: 12px;
+} */
+
+form input {
+  outline: none;
+  border: none;
+  padding: 12px;
+  width: 35%;
+  font-size: 2.2rem;
+  border: 2px solid var(--grey);
+  border-radius: 12px;
 }
 
-form .form-group {
+/* form .form-group {
   margin: 10px 6px 10px 0;
   flex: 1;
+} */
+
+form .form-group {
+  margin: 0px 6px 10px 0;
+  width: 35%;
+  /* flex: 1; */
 }
 
 footer {
@@ -134,7 +156,7 @@ footer {
   flex: 1;
 }
 
-.btn {
+/* .btn {
   outline: none;
   border: none;
   display: inline-block;
@@ -144,6 +166,19 @@ footer {
   border-radius: 12px;
   position: relative;
   top: -3px;
+  box-shadow: 0 3px var(--grey);
+} */
+
+.btn {
+  outline: none;
+  border: none;
+  display: inline-block;
+  padding: 10px 15px;
+  background: var(--primary);
+  font-size: 2.2rem;
+  border-radius: 12px;
+  position: relative;
+  top: 4px;
   box-shadow: 0 3px var(--grey);
 }
 
