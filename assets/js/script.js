@@ -317,7 +317,7 @@ var saveTasks = function() {
 
 var loadTasks = function() {
     // gets task items from local storage
-    var tasks = localStorage.getItem("tasks");
+    tasks = localStorage.getItem("tasks");
     console.log(tasks);
 
     if (tasks === null) {
